@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+django-debug-toolbar = "*"
+mysqlclient = "*"
+djangorestframework = "*"
+django-filter = "*"
+djoser = "*"
+djangorestframework-simplejwt = "*"
+django-nested-admin = "*"
+django-cors-headers = "*"
+django-multiselectfield = "*"
+django-admin-list-filter-dropdown = "*"
+django-storages = "*"
+boto3 = "*"
+django-environ = "*"
+gunicorn = "*"
+dj-database-url = "*"
+psycopg2-binary = "*"
+Pillow = "*"
+django-anymail = {extras = ["mailgun"], version = "*"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
