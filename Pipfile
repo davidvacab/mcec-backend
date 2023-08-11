@@ -23,6 +23,7 @@ dj-database-url = "*"
 psycopg2-binary = "*"
 Pillow = "*"
 django-anymail = {extras = ["mailgun"], version = "*"}
+whitenoise = "*"
 
 [dev-packages]
 
